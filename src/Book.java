@@ -25,7 +25,7 @@ public class Book {
     }
 
     public void setYearPublishing(int yearPublishing) {
-        if (yearPublishing > 2000 && yearPublishing <= LocalDate.now().getYear()) {
+        if (yearPublishing > 1950 && yearPublishing <= LocalDate.now().getYear()) {
             this.yearPublishing = yearPublishing;
         } else {
             System.out.println("Некорректный год публикации");
